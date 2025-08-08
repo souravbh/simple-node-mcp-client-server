@@ -1,0 +1,21 @@
+{
+    "type": "module",
+    "name": "phi4_node_sample",
+    "version": "1.0.0",
+    "description": "Node.js sample project integrating with Ollama",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@cloi-ai/cloi": "^1.0.1",
+        "@modelcontextprotocol/sdk": "^1.17.2",
+        "csv-parser": "^3.2.0",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "ollama": "^0.5.15",
+        "zod": "^3.25.76"
+    },
+    "author": "SB",
+    "license": "MIT"
+}
